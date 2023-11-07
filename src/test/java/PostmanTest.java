@@ -1,10 +1,11 @@
-import org.junit.Test;
+
+
+import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 public class PostmanTest {
 
-    class PostmanTests {
         @Test
         void shouldReturnSomeData (){
             // Given - When - Then
@@ -22,4 +23,3 @@ public class PostmanTest {
             ;
         }
     }
-}
